@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carbon Footprint</title>
+    <script src="carbonFootprint.js" defer></script>
+  </head>
+  <body>
+    <h1>Carbon Footprint</h1>
+    <form>
+      <h2>What is your daily meat consumption?</h2>
+      <h3>For reference, the Madero Cheeseburger has 180 grams of meat in it.</h3>
+      <br />
+      <br />
+      <label for="heavy">Heavy Meat Eater: more than 100 g per day</label>
+      <input type="radio" id="heavy" name="diet" value="heavy" />
+      <br />
+      <label for="medium">Medium Meat Eater: 50-99 g per day</label>
+      <input type="radio" id="medium" name="diet" value="medium" />
+      <br />
+      <label for="light">Light Meat Eater: less than 50 g per day</label>
+      <input type="radio" id="light" name="diet" value="light" />
+      <br />
+      <label for="pescaterian">Fish Eater: </label>
+      <input type="radio" id="pescaterian" name="diet" value="pescaterian" />
+      <br />
+      <label for="vegetarian">Vegetarian: </label>
+      <input type="radio" id="vegetarian" name="diet" value="vegetarian" />
+      <br />
+      <label for="vegan">Vegan: </label>
+      <input type="radio" id="vegan" name="diet" value="vegan" />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <br />
+    <p>Your carbon footprint based on your meat consumption is: <input type="text" id="result" /></p>
+  </body>
+</html>
