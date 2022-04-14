@@ -71,3 +71,8 @@ document.querySelector("form").addEventListener("submit", function (e) {
     document.querySelector("#result").value = "2.89 kg CO2e per day"
   }
 })
+function play() {
+  var audio = document.getElementById("audio");
+  audio.play();
+}
+
